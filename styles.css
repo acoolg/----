@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    background-color:#03CEA4 ;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    padding: 10px;
+    align-items: center;
+}
+
+nav a:hover{
+    background-color:#00A18A;
+    color: #FB4D3D;
+    transition: background-color 0.3s ease;
+}
+
+nav{
+    width: 100%;
+    text-decoration: none;
+    background-color:#03CEA4 ;
+    padding: 9px;
+    position: fixed;
+    z-index: 99999999999999999999999999;
+}
+
+.header{
+    text-align: left;
+    color: #9dff00;
+    font-size: 2em;
+    background-image: url(img/image.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height:100px;
+    max-height: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.big-card{
+    max-width: 100%;
+    min-width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #34599570;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(107, 8, 8, 0.2);
+    -webkit-backdrop-filter: blur(.2rem);
+    backdrop-filter: blur(0.2rem);
+    padding: 10px;
+}
+
+.card-view{
+    color:#345995 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 190px;
+    height: 250px;
+    background-color: #FB4D3D;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(107, 8, 8, 0.2);
+    cursor: pointer;
+
+}
+
+.card h1{
+    text-align: center;
+    margin: 0px;
+}
+
+.card img{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-image: url(img/cover.png);
+    background-size: cover;
+}
+
+.card p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+.naev{
+    width: 100%;
+    text-decoration: none;
+    background-color:#03CEA4 ;
+    padding: 9px;
+    height: 22px;
+}
+
+a{
+    text-decoration: none;
+    color:#345995 ;
+}
